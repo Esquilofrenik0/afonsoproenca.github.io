@@ -1,21 +1,28 @@
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-6yndkvqsqa] {
+    color: #fff;
+    background-color: #000;
     position: relative;
     display: flex;
     flex-direction: column;
 }
 
 .main[b-6yndkvqsqa] {
+    background-color: #000;
     flex: 1;
 }
 
 .sidebar[b-6yndkvqsqa] {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    background-color: #000;
+    /* background-image: linear-gradient(180deg, #000 50%, #fff 100%); */
+    /* background-image: linear-gradient(180deg, #000 0%, #040 100%); */
 }
 
 .top-row[b-6yndkvqsqa] {
-    background-color: #f7f7f7;
-    border-bottom: 1px solid #d6d5d5;
+    background-color: #000;
+    /* background-image: linear-gradient(90deg, #000 50%, #fff 100%); */
+    /* background-image: linear-gradient(90deg, #000 0%, #040 100%); */
+    /* border-bottom: 1px solid #d6d5d5; */
     justify-content: flex-end;
     height: 3.5rem;
     display: flex;
@@ -80,6 +87,7 @@
 }
 
 .navbar-brand[b-z3kp6gocz8] {
+    color: #fff;
     font-size: 1.1rem;
 }
 
